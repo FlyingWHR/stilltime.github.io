@@ -1,8 +1,8 @@
-title: "Osprey Delight Demo"
+title: "Stlltime"
 baseURL: "https://example.com"
 languageCode: "en-US"
 theme: "github.com/kdevo/osprey-delight/v5"
-tags: ["personal", "homepage", "portfolio"]
+tags: ["applicaton", "homepage", "support"]
 #canonifyURLS: true
 #googleAnalytics: ""
 disableKinds: ["taxonomy", "taxonomyTerm"]
@@ -22,7 +22,7 @@ Params:
   description: "Osprey Delight: Example Site"
 
   # logoBig appears at the top of the page. Use a path relative to the assets dir for auto-resizing. 
-  logoBig: "osprey-delight.png"
+  logoBig: "stilltime.png"
 
   # logoSmall is the logo that will be shown in the left corner of the nav bar.
   #   Use a path relative to the assets dir for auto-resizing.
@@ -47,7 +47,7 @@ Params:
   #tagline: "Welcome!"
   # mdTagline can be used instead to specify the tagline in Markdown for more customizability.
   #   Note that {cursor} is a placeholder and will be replaced by the actual cursor HTML when rendering.
-  mdTagline: "# Welcome!\n ## This is Osprey Delight{cursor}"
+  mdTagline: "# Welcome!\n ## Welcome to Stilltime{cursor}"
 
   # enforceSinglePage will enforce redirection to the baseURL for all sub-directories/-pages.
   #   Example: If you create about.md, Hugo will also create a '/about/index.html' which might not be what you want for a *single* page site. 
@@ -72,8 +72,6 @@ Params:
     url: "https://github.com/hugo-mods/"
   - type: heart
     url: "https://github.com/sponsors/kdevo"
-  - type: stackoverflow  
-    url: ""
   - type: spotify
     url: https://open.spotify.com/artist/5NhBOdJh6T1tgtM5Au1Opl
 
@@ -144,14 +142,10 @@ Menu:
       identifier: gallery
       url: "/#work"
       weight: 2
-    - name: "Blog"
-      identifier: blog
-      url: "/#blog"
-      weight: 3
     - name: "Contact"
       identifier: contact
       url: "/#contact"
-      weight: 4
+      weight: 3
     # - name: ""
     #   # pre makes it possible to use arbitrary HTML before the name, e.g. referencing icons here is possible:
     #   pre: '<svg class="icon"><use xlink:href="#icon-external"/></svg>&nbsp;'
